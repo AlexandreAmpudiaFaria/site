@@ -44,7 +44,7 @@
             <div class="dropdown-menu">
               <a class="dropdown-item" href="despesas.html">Despesas</a>
               <div class="dropdown-divider"></div>
-              <a class="dropdown-item" href="formularioCadastrarCliente.php">Receitas</a>
+              <a class="dropdown-item" href="receitas.html">Receitas</a>
               <div class="dropdown-divider"></div>
               <a class="dropdown-item" href="formularioCadastrarCliente.php">Licitações</a>
               <div class="dropdown-divider"></div>
