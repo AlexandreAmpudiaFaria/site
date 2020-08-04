@@ -1,57 +1,123 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Despesas</title>    
-   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-<link rel="stylesheet" type="text/css" href="estilo.css">
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+  <meta name="description"
+    content="Portal da Transparêcia - Hospital Maracai - Associação Hospital Beneficente de Maracaí Site - Pronto Socorro Maracai Site - Amigos do Hospital Maracaí">
+  <meta name="keywords"
+    content="Hospital Maracai, hospital de maracai, hospital, maracai, saude, pronto socorro, maternidade">
+  <meta name="robots" content="index, follow">
+  <meta name="googletbot" content="index,follow">
+  <meta name="author" content="Alexandre Ampudia Faria">
+  <meta http-equiv="content-language" content="pt-br">
+  <meta name="Global" content="distribuition">
+  <meta property="og:url" content="https://www.ahbm.com.br/">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Despesas</title>
+  <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/manifest.json">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+  <meta name="theme-color" content="#ffffff">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" type="text/css" href="estilo.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
+    integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+  <meta name="google-site-verification" content="Zspb04Xh76pNMqez_ephPy-NjwbkG1qkiPxRPSK21zE" />
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-172341720-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'UA-172341720-1');
+  </script>
+
+  <script src="https://kit.fontawesome.com/7ed63f44a3.js" crossorigin="anonymous"></script>
+
 </head>
+
 <body>
 
-  <div class="container-fluid">
 
-    <nav class="navbar navbar-expand-lg navbar-dark bg-primary ">
-      
-      <!--<a class="navbar-brand" href="home.php">Hospital Maracaí</a>-->
 
-      <!--<a class="navbar-brand mb-0" href="index.php"><label> <i class="fas fa-hospital-alt"></i> Hospital Maracaí</label></a>-->
+  <nav class="navbar navbar-expand-lg collapse navbar-dark bg-primary ">
 
-      <a class="navbar-brand mb-0" href="index.html"><h4> <i class="fas fa-hospital-alt"></i>  Hospital Maracaí</h4></a>
+    <!--<a class="navbar-brand" href="home.php">Hospital Maracaí</a>-->
 
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSite">
-        <span class="navbar-toggler-icon"></span>
-      </button>
+    <!--<a class="navbar-brand mb-0" href="index.php"><label> <i class="fas fa-hospital-alt"></i> Hospital Maracaí</label></a>-->
 
-      <div class="collapse navbar-collapse" id="navbarSite">
+    <img src="logocerto.png">
 
-        <ul class="navbar-nav mr-auto">
+    <a class="navbar-brand " href="index.html">Hospital Maracaí</a>
 
-          <li class="nav-item">
-            <a href="index.html" class="nav-link"><i class="fas fa-home"></i> Inicio</a>
-          </li>
+    <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarSite">
+      <span class="navbar-toggler-icon"></span>
+    </button>
 
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toogle" href="#" id="dropdownSite" data-toggle="dropdown" ><i class="fas fa-file-medical-alt"></i> Portal da Transparência</a>
-            <div class="dropdown-menu">
-              <a class="dropdown-item" href="despesas.html">Despesas</a>
-              <div class="dropdown-divider"></div>
-              <a class="dropdown-item" href="receitas.html">Receitas</a>
-              <div class="dropdown-divider"></div>
-              <a class="dropdown-item" href="formularioCadastrarCliente.php">Licitações</a>
-              <div class="dropdown-divider"></div>
-              <a class="dropdown-item" href="formularioCadastrarCliente.php">Contratos</a>
-            </div>
-          </li>
-          
-        </ul>
-        
-      </div>
-    </nav>
+    <div class="collapse navbar-collapse" id="navbarSite">
+
+      <ul class="navbar-nav mr-auto">
+
+        <li class="nav-item">
+          <a href="index.html" class="nav-link"><i class="fas fa-home"></i> Inicio</a>
+        </li>
+
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toogle" href="#" id="dropdownSite" data-toggle="dropdown"><i
+              class="fas fa-file-medical-alt"></i> Portal da Transparência</a>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="despesas.html">Despesas</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="receitas.html">Receitas</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="formularioCadastrarCliente.php">Licitações</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="formularioCadastrarCliente.php">Contratos</a>
+          </div>
+        </li>
+
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toogle" href="#" id="dropdownSite" data-toggle="dropdown"> <i
+              class="fas fa-virus"></i> COVID-19</a>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="despesas.html">Boletins</a>
+          </div>
+        </li>
+
+      </ul>
+
+    </div>
+
+    </br></br>
+
+
+  </nav>
 
 
     <div class="table-responsive-lg table-striped teste">
