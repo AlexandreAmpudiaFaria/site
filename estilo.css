@@ -110,5 +110,5 @@ div.testee{
 }
 
 .imagem {
-  margin: 0 auto;
+  margin: auto !important;
 }
