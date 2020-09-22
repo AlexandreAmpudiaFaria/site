@@ -88,6 +88,10 @@ div.logoHM{
   margin-top: 20px;
 }
 
+a.btnnome{
+  color: white;
+}
+
 .navbar.custom {
     width: 100%;  
     margin: 0 auto;
