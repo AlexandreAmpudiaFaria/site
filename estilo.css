@@ -92,6 +92,10 @@ li.btnnome{
   color: white;
 }
 
+a.linkname{
+  color: white;
+}
+
 .navbar.custom {
     width: 100%;  
     margin: 0 auto;
