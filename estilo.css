@@ -138,6 +138,7 @@ position:absolute;
 
 h2.tituloLoc{
 color:#007bff;
-margin-top: 5px;
-position:center;
+margin-top: 10px;
+margin-bottom: 5px;
+text-align:center;
 }
