@@ -1,4 +1,4 @@
 RewriteEngine On
-RewriteCond %{HTTP_HOST} ^ahbm.com.br [NC]
+RewriteCond %{HTTP_HOST} ^www.ahbm.com.br [NC]
 RewriteCond %{SERVER_PORT} 80
 RewriteRule ^(.*)$ https://www.ahbm.com.br/$1 [R,L]
