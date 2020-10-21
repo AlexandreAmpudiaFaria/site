@@ -1,3 +1,0 @@
-RewriteEngine On
-RewriteCond %{HTTP:CF-Visitor} '"scheme":"https://"'
-RewriteRule ^(.*)$ https://www.ahbm.com.br/$1 [L]
