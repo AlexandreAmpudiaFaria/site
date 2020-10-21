@@ -121,20 +121,6 @@ div.testee{
   text-align:center;
   }
 
-.map-container-2{
-overflow:hidden;
-position:relative;
-height:0;
-margin-top: 2px;
-}
-.map-container-2 iframe{
-left:0;
-top:0;
-height:100%;
-width:100%;
-position:absolute;
-}
-
 h2.tituloLoc{
 color:#007bff;
 margin-top: 20px;
