@@ -121,12 +121,17 @@ div.testee{
   text-align:center;
   }
 
-h2.tituloLoc{
+h1.tituloLoc{
 color:#007bff;
 margin-top: 20px;
 margin-bottom: 20px;
 text-align:center;
 }
+
+div.tituloLoc{
+  margin-top: 50px;
+  margin-bottom: 50px;
+  }
 
 .map-container-4{
 overflow:hidden;
